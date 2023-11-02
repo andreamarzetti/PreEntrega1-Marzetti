@@ -4,12 +4,12 @@ import { ItemListContainer } from "./components/ItemListContainer";
 import "./App.css";
 
 function App() {
- return (
- <> 
-          < NavBar />
-          < ItemListContainer greeting ="Hello World" />
- </>
- );
+    return (
+        <>
+            < NavBar />
+            < ItemListContainer greeting="Hello World" />
+        </>
+    );
 }
 
 export default App;
